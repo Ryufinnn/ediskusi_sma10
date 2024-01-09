@@ -1,0 +1,157 @@
+@charset "utf-8";
+table{  border-collapse : collapse;border:none;}
+
+th {
+text-align:center;font-weight:normal;padding:2px;
+}
+
+
+#theList th {
+    background-image: -moz-linear-gradient(0% 20px 90deg,#eee,white);
+	color:black;
+	text-align:center;
+	font:normal 12px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	padding:5px;
+	border:1px solid #ccc;
+}
+#tabel_jual {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:260px;
+	margin:auto;
+	width:100%;
+	overflow-y:auto;
+	overflow-x:auto;
+	line-height: 1.3em;
+	  line-height: normal;
+	  border: 1px solid #eee;
+	  background:white;
+	  padding:4px;
+	  margin-bottom:3px;
+}
+#theList {border: 1px solid #eee;}
+.td{border: 1px solid #ccc;padding-left:5px;}
+#kotak-chat {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:460px;
+	margin:auto;
+	width:100%;
+	overflow-y:auto;
+	overflow-x:auto;
+	line-height: 1.3em;
+	line-height: normal;
+	border: 1px solid #eee;
+	background:white;
+	padding:1px;
+	margin-bottom:3px;
+	box-shadow: 0px 0px 1px  #eee;
+}
+#judul_header{
+font:20px/26px Georgia, "Times New Roman", Times, serif;
+padding:5px;
+width:275px;	
+height:27px;
+background: -moz-linear-gradient(top,  #FBFBFB 20%, #FBFBFB 100%); /* red */
+background: -moz-linear-gradient(#FBFBFB,#FBFBFB); /* red */
+background: -o-linear-gradient(#FBFBFB, #FBFBFB); /* red */
+background: -webkit-linear-gradient(#FBFBFB, #FBFBFB); /* red */
+border-radius:3px 3px 0 0;
+-moz-border-radius:3px 3px 0 0;
+-webkit-border-radius:3px 3px 0 0;
+-webkit-box-shadow: 0px 0px 1px #eee;
+-moz-box-shadow: 0px 0px 1px #eee;
+box-shadow: 0px 0px 1px #eee;
+}
+#judul_kontent{
+font:20px/26px Georgia, "Times New Roman", Times, serif;
+padding-top: 9px;
+padding-bottom: 7px;
+width:100%;	
+height:30px;
+border: 1px solid #eee;
+border-bottom:none;
+background: -moz-linear-gradient(top,  #FBFBFB 20%, #FBFBFB 100%); /* red */
+background: -moz-linear-gradient(#eee,white); /* red */
+background: -o-linear-gradient(#eee, white); /* red */
+background: -webkit-linear-gradient(#FBFBFB, #FBFBFB); /* red */
+border-radius:9px 9px 0 0;
+-moz-border-radius:9px 9px 0 0;
+-webkit-border-radius:9px 9px 0 0;
+-webkit-box-shadow: 0px 0px 0px #ccc;
+-moz-box-shadow: 0px 0px 0px #ccc;
+box-shadow: 0px 0px 0px #ccc;
+margin-bottom:-10px;
+}
+#judul_kontent img{margin-top:-7px;}
+.agenda{
+	width:275px;	
+	height:196px;
+	padding:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0px 0px 1px #ccc;
+    -moz-box-shadow: 0px 0px 1px #ccc;
+    box-shadow: 0px 0px 1px #ccc;
+    overflow-y:auto;
+	overflow-x:auto;
+	background-color:white;
+}	
+.agenda td{border-bottom: 1px solid #F6F6F6;}
+.download{
+	width:952px;	
+	height:810px;
+	margin-top:10px;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0px 0px 1px #ccc;
+    -moz-box-shadow: 0px 0px 1px #ccc;
+    box-shadow: 0px 0px 1px #ccc;
+    overflow-y:auto;
+	overflow-x:auto;
+	background-color:white;
+}	
+.download td{border-bottom: 1px solid #F6F6F6;}
+
+.judul_status{
+font:27px/26px Georgia, "Times New Roman", Times, serif;
+padding-top: 5px;
+padding-bottom: 5px;
+color:#797b7c;
+}
+
+#balasan{margin-left:0px;padding-top:0px;border-top:1px solid #ebebeb;}
+#box-status{border:solid 1px  #eee;padding:10px;margin-bottom:10px;background:#fff;-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;}
+.nama-status{margin-top:10px;margin-left:0px;color:#444;}
+#balasan_box{margin-left:0px;padding:0px;}	
+.text-status{margin-top:-10px;margin-bottom:0px;margin-left:80px;font-weight:normal;word-wrap:break-word;text-align:justify;}
+.v_nama-status{margin-top:-60px;margin-left:-60px;color:#3B5998;}
+.time{margin-top:-10px;margin-left:-60px; color:#666;font-size:11px;}
+.del{
+float:right;
+margin-top:-50px;
+margin-right:-10px;
+-webkit-mask-box-image:url(mask.png);
+opacity : 0.5;
+}
+.del:hover{
+float:right;
+margin-top:-50px;
+margin-right:-10px;
+-webkit-transition : opacity 2s linear;
+opacity : 1;
+}
+.foto{
+float:right;
+margin-right:20px;
+margin-top:-20px;
+padding:8px;
+background:white;
+-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.29), inset 1px 1px 1px rgba(255,255,255,.44);
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.29), inset 1px 1px 1px rgba(255,255,255,.44);
+	box-shadow: 0px 0px 2px rgba(0,0,0,.29), inset 1px 1px 1px rgba(255,255,255,.44);
+}
